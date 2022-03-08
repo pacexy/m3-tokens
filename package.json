@@ -1,0 +1,20 @@
+{
+  "name": "m3-tokens",
+  "version": "0.0.1",
+  "description": "Atomic CSS for Material Design 3 (M3) design tokens.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "pacexy",
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "^0.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23"
+  }
+}
