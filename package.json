@@ -1,9 +1,11 @@
 {
   "name": "m3-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Atomic CSS for Material Design 3 (M3) design tokens.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "esbuild tailwind/index.js --bundle --platform=node --outfile=dist/tailwind/index.js"
+  },
   "author": "pacexy",
   "license": "MIT",
   "prettier": {
@@ -14,6 +16,7 @@
     "@material/material-color-utilities": "^0.1.1"
   },
   "devDependencies": {
+    "esbuild": "^0.14.25",
     "prettier": "^2.5.1",
     "tailwindcss": "^3.0.23"
   }
